@@ -1,0 +1,8 @@
+
+Jul 19 10:00:01 server sshd[1234]: Accepted password for root from 192.168.1.5 port 54321 ssh2
+Jul 19 10:05:12 server sshd[1235]: Failed password for invalid user admin from 203.0.113.5 port 39281 ssh2
+Jul 19 10:05:14 server sshd[1235]: Failed password for invalid user admin from 203.0.113.5 port 39282 ssh2
+Jul 19 10:05:16 server sshd[1235]: Failed password for invalid user admin from 203.0.113.5 port 39283 ssh2
+Jul 19 10:05:18 server sshd[1235]: Failed password for invalid user admin from 203.0.113.5 port 39284 ssh2
+Jul 19 10:10:00 server sshd[1236]: Failed password for root from 198.51.100.12 port 42192 ssh2
+Jul 19 10:12:30 server sshd[1237]: Accepted password for user1 from 192.168.1.10 port 51111 ssh2
