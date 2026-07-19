@@ -1,20 +1,39 @@
-
 # AI Based SSH Login Attack Detector
 
-## Project Overview
+## Course Information
 
-This project detects suspicious SSH login attacks by analyzing Linux authentication logs. It counts failed login attempts from each IP address and identifies potential brute-force attacks.
+- Course: OSG203 - Operating System
+- Project: AI Based SSH Login Attack Detector
+- Group: 9
+
+## Group Members
+
+- Nguyễn Thế Thọ
+- Lã Ngọc Ninh
 
 ---
 
-## Features
+## Project Description
 
-- Read Linux SSH authentication log
-- Extract failed login attempts
-- Count failed logins by IP address
-- Detect suspicious IPs
-- Export results to CSV
-- Generate visualization chart
+This project analyzes Linux SSH authentication logs and detects abnormal login attempts using a simple anomaly detection approach.
+
+The program:
+
+- Reads SSH authentication logs.
+- Extracts failed login IP addresses.
+- Counts failed login attempts.
+- Detects suspicious IPs (>=3 failed logins).
+- Exports the analysis result to CSV.
+- Generates a visualization chart.
+
+---
+
+## Technologies
+
+- Python 3
+- Regular Expression (Regex)
+- Collections.Counter
+- Matplotlib
 
 ---
 
@@ -23,33 +42,38 @@ This project detects suspicious SSH login attacks by analyzing Linux authenticat
 ```
 SSH_Login_Detector
 │
-├── auth_log.txt          # Sample SSH log
-├── collect_log.sh        # Shell script
-├── main.py               # Main Python program
-├── result.csv            # Analysis result
-├── bieu_do_output.png    # Chart
+├── auth_log.txt
+├── collect_log.sh
+├── main.py
 ├── requirements.txt
-└── README.md
+├── README.md
+├── result.csv
+└── bieu_do_output.png
 ```
 
 ---
 
-## Requirements
+## Dataset
 
-- Python 3.x
-- matplotlib
+The project uses a simulated Linux SSH authentication log stored in:
 
-Install dependency:
+```
+auth_log.txt
+```
 
-```bash
+---
+
+## How to Run
+
+Install dependencies:
+
+```
 pip install -r requirements.txt
 ```
 
----
+Run the program:
 
-## Run Project
-
-```bash
+```
 python main.py
 ```
 
@@ -57,15 +81,16 @@ python main.py
 
 ## Output
 
-The program will:
+The program generates:
 
-- Detect suspicious IP addresses
-- Generate result.csv
-- Generate bieu_do_output.png
+- result.csv
+- bieu_do_output.png
 
 ---
 
-## Sample Detection
+## Sample Result
+
+The detector identifies:
 
 | IP Address | Failed Login | Status |
 |------------|-------------:|--------|
@@ -74,12 +99,6 @@ The program will:
 
 ---
 
-## Authors
+## GitHub Repository
 
-Group 9
-
-- Nguyễn Thế Thọ
-- Lã Ngọc Ninh
-- Vũ Hoàng Yến
-
-Course: OSG203
+Source code for OSG203 Group Project.
