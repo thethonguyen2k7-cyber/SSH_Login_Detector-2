@@ -102,3 +102,8 @@ The detector identifies:
 ## GitHub Repository
 
 Source code for OSG203 Group Project.
+## Result
+
+Below is the generated chart after analyzing the SSH authentication log.
+
+![SSH Login Detector Result](bieu_do_output.png)
