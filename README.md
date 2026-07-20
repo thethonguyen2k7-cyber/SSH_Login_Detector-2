@@ -9,7 +9,7 @@
 ## Group Members
 
 - Nguyễn Thế Thọ
-- Lã Ngọc Ninh
+- Lê Ngọc Ninh
 
 ---
 
